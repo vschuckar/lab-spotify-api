@@ -12,7 +12,7 @@ The purpose of this lab is to use Spotify's API to extend both databases with th
 Take into account that sometimes Spotify's API will return several matches for the same song title (different artists, a different album of the same artist, version of the song,...etc). Then it will be nice to display a list of outputs to the user and let him/her select which is the right match. Once the desired song is located, the function should return the href/id/uri of the song to the code (not to the user).
 Keep in mind, that a given song might not be available on Spotify's API (make sure to use the song's title and artist searching the song). If the song is not found, the function must return an empty string as the href/id/uri. Also, in this case, you should remove this song from the database.
 
-* Create a function **get_audio_features(list_of_songs)** to obtain the audio features of a given list of songs (the content of list_of_songs can be the href/id/uri). 
+* Create a function **get_audio_features(list_of_song_ids)** to obtain the audio features of a given list of songs (the content of list_of_songs can be the href/id/uri). 
 
 Be careful to not exceed the number of calls to the API otherwise, you will be banned and you will have to wait several hours before launching a new request [see here](https://developer.spotify.com/documentation/web-api/guides/rate-limits/).
 A good strategy to prevent this problem is to split the list of song id's in "chunks" of 50 songs id's and wait 20 seconds before asking for the audio features of the next "chunk".
