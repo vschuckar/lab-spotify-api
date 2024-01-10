@@ -1,0 +1,2 @@
+,artist,title,id,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,type,uri,track_href,analysis_url,duration_ms,time_signature
+0,Nat King Cole,The Christmas Song,4PS1e8f2LvuTFgUs1Cn3ON,0.319,0.21,1,-15.231,1,0.0341,0.92,8.06e-05,0.138,0.209,78.696,audio_features,spotify:track:4PS1e8f2LvuTFgUs1Cn3ON,https://api.spotify.com/v1/tracks/4PS1e8f2LvuTFgUs1Cn3ON,https://api.spotify.com/v1/audio-analysis/4PS1e8f2LvuTFgUs1Cn3ON,192160,4
